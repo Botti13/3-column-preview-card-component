@@ -36,7 +36,7 @@ Mobile view
 ### Links
 
 - Solution URL: [https://github.com/Botti13/3-column-preview-card-component](https://github.com/Botti13/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://botti13.github.io/3-column-preview-card-component/](https://botti13.github.io/3-column-preview-card-component/)
 
 ## Author
 
