@@ -1,0 +1,135 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-light-gray);
+    color: var(--transparent-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    width: 64px;
+}
+
+
+#container {
+    display: flex;
+    width: 900px;
+    height: 475px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 5px 0 0 5px;
+}
+
+.sedans button {
+    color: var(--bright-orange);
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.suvs button {
+    color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 5px 5px 0;
+}
+
+.luxury button {
+    color: var(--very-dark-cyan);
+}
+
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 75px;
+    padding: 15px;
+    width: 150px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.attribution {
+    color: black;
+    font-size: 11px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media (max-width: 850px) {
+    
+    #container {
+        flex-direction: column;
+        margin: 100px 0 100px 0;
+        width: 80%;
+        height: auto;
+    }
+
+    .details {
+        padding: 30px;
+    }
+
+    .sedans {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .button {
+        margin-top: 5px;
+    }
+}
